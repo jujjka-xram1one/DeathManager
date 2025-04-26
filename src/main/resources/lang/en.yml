@@ -1,0 +1,57 @@
+death-message:
+  p: "&fPlayer &b&l%pname%&r %cause%"
+
+cause-map:
+  CONTACT: "died from contact with a block"
+  ENTITY_ATTACK: "died from entity attack"
+  ENTITY_SWEEP_ATTACK: "died from entity sweep attack"
+  PROJECTILE: "died from projectile hit"
+  SUFFOCATION: "suffocated in blocks"
+  FALL: "died from falling"
+  FIRE: "burned in fire"
+  FIRE_TICK: "burned from fire"
+  MELTING: "melted"
+  LAVA: "burned in lava"
+  DROWNING: "drowned"
+  BLOCK_EXPLOSION: "died from block explosion"
+  ENTITY_EXPLOSION: "died from entity explosion"
+  VOID: "fell into the void"
+  LIGHTNING: "died from lightning strike"
+  SUICIDE: "committed suicide"
+  STARVATION: "died from starvation"
+  POISON: "died from poison"
+  MAGIC: "died from magic"
+  WITHER: "died from wither"
+  FALLING_BLOCK: "crushed by falling block"
+  THORNS: "died from thorns"
+  DRAGON_BREATH: "died from dragon breath"
+  CUSTOM: "died for an unknown reason"
+  FLY_INTO_WALL: "crashed into a wall while flying"
+  HOT_FLOOR: "burned by a hot block"
+  CRAMMING: "suffocated in tight spaces"
+  DRYOUT: "died from dehydration"
+  FREEZE: "froze to death"
+  KILL: "was killed"
+  unknown: "died for an unknown reason"
+
+m:
+  grave-name: "&4&l❌ &r&f%s"
+  set: "&f&lSet"
+  get: "&f&lGiven"
+  win: "&2&lWin"
+  subwin: "&fnow you can get out of here"
+
+  notGraves: "&f&lYou have no graves"
+  graveCoordinates: "&f&l%s) &r%s,%s,%s"
+
+  deathTeleport: "&7You have entered the afterlife"
+  lastLifes: "&fRemaining lives: &7&l%s"
+  bossSpawn: "&f&lYou have a chance to escape, run to spawn!"
+
+items:
+  grave-key:
+    name: "&7Grave Key"
+  mortal-totem:
+    name: "&c&lEnhanced Totem"
+  lightstone:
+    name: "&f&lLight stone"

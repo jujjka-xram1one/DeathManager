@@ -1,0 +1,57 @@
+death-message:
+  p: "&fJoueur &b&l%pname%&r %cause%"
+
+cause-map:
+  CONTACT: "est mort au contact d'un bloc"
+  ENTITY_ATTACK: "est mort sous l'attaque d'une entité"
+  ENTITY_SWEEP_ATTACK: "est mort sous une attaque large d'entité"
+  PROJECTILE: "est mort après avoir été touché par un projectile"
+  SUFFOCATION: "est mort étouffé dans les blocs"
+  FALL: "est mort après une chute"
+  FIRE: "a brûlé dans le feu"
+  FIRE_TICK: "a brûlé à cause du feu"
+  MELTING: "a fondu"
+  LAVA: "a brûlé dans la lave"
+  DROWNING: "s'est noyé"
+  BLOCK_EXPLOSION: "est mort à cause d'une explosion de bloc"
+  ENTITY_EXPLOSION: "est mort à cause d'une explosion d'entité"
+  VOID: "est tombé dans le vide"
+  LIGHTNING: "est mort frappé par la foudre"
+  SUICIDE: "s'est suicidé"
+  STARVATION: "est mort de faim"
+  POISON: "est mort empoisonné"
+  MAGIC: "est mort à cause de la magie"
+  WITHER: "est mort sous l'effet du Wither"
+  FALLING_BLOCK: "a été écrasé par un bloc en chute"
+  THORNS: "est mort à cause des épines"
+  DRAGON_BREATH: "est mort à cause du souffle du dragon"
+  CUSTOM: "est mort pour une raison inconnue"
+  FLY_INTO_WALL: "s'est écrasé contre un mur en volant"
+  HOT_FLOOR: "s'est brûlé sur un bloc chaud"
+  CRAMMING: "est mort écrasé dans un espace confiné"
+  DRYOUT: "est mort de déshydratation"
+  KILL: "a été tué"
+  FREEZE: "est mort de froid"
+  unknown: "est mort pour une raison inconnue"
+
+m:
+  grave-name: "&4&l❌ &r&f%s"
+  set: "&f&lDéfini"
+  get: "&f&lReçu"
+  win: "&2&lVictoire"
+  subwin: "&fmaintenant, tu peux sortir d'ici"
+
+  notGraves: "&f&lVous n'avez pas de tombes"
+  graveCoordinates: "&f&l%s) &r%s,%s,%s"
+
+  deathTeleport: "&7Vous êtes entré dans l'au-delà"
+  lastLifes: "&fVies restantes: &7&l%s"
+  bossSpawn: "&f&lVous avez une chance de sortir d'ici, courez vers le spawn !"
+
+items:
+  grave-key:
+    name: "&7Clé de tombe"
+  mortal-totem:
+    name: "&c&lTotem amélioré"
+  lightstone:
+    name: "&f&lPierre lumineuse"

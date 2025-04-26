@@ -1,0 +1,57 @@
+death-message:
+  p: "&fプレイヤー &b&l%pname%&r %cause%"
+
+cause-map:
+  CONTACT: "ブロックとの接触で死亡"
+  ENTITY_ATTACK: "エンティティの攻撃で死亡"
+  ENTITY_SWEEP_ATTACK: "エンティティの範囲攻撃で死亡"
+  PROJECTILE: "弾丸で死亡"
+  SUFFOCATION: "ブロックで窒息"
+  FALL: "落下で死亡"
+  FIRE: "火で焼かれた"
+  FIRE_TICK: "火で焼けた"
+  MELTING: "溶けた"
+  LAVA: "溶岩で焼けた"
+  DROWNING: "溺死"
+  BLOCK_EXPLOSION: "ブロックの爆発で死亡"
+  ENTITY_EXPLOSION: "エンティティの爆発で死亡"
+  VOID: "虚無に落ちた"
+  LIGHTNING: "雷で死亡"
+  SUICIDE: "自殺した"
+  STARVATION: "飢えで死亡"
+  POISON: "毒で死亡"
+  MAGIC: "魔法で死亡"
+  WITHER: "ウィザーで死亡"
+  FALLING_BLOCK: "落下したブロックに潰された"
+  THORNS: "棘で死亡"
+  DRAGON_BREATH: "ドラゴンの息で死亡"
+  CUSTOM: "不明な原因で死亡"
+  FLY_INTO_WALL: "飛行中に壁に衝突"
+  HOT_FLOOR: "熱いブロックで焼けた"
+  CRAMMING: "圧迫されて窒息"
+  DRYOUT: "脱水で死亡"
+  KILL: "殺された"
+  FREEZE: "凍った"
+  unknown: "不明な原因で死亡"
+
+m:
+  grave-name: "&4&l❌ &r&f%s"
+  set: "&f&l設定しました"
+  get: "&f&l受け取りました"
+  win: "&2&l勝利"
+  subwin: "&fここから出ることができます"
+
+  notGraves: "&f&l墓がありません"
+  graveCoordinates: "&f&l%s) &r%s,%s,%s"
+
+  deathTeleport: "&7死後の世界に転送されました"
+  lastLifes: "&f残りライフ: &7&l%s"
+  bossSpawn: "&f&l脱出のチャンスが来ました、ボスを倒してスパウンに急げ！"
+
+items:
+  grave-key:
+    name: "&7墓の鍵"
+  mortal-totem:
+    name: "&c&l改良されたトーテム"
+  lightstone:
+    name: "&f&lライトストーン"

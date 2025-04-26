@@ -1,0 +1,57 @@
+death-message:
+  p: "&fИгрок &b&l%pname%&r %cause%"
+
+cause-map:
+  CONTACT: "умер от контакта с блоком"
+  ENTITY_ATTACK: "умер от атаки сущности"
+  ENTITY_SWEEP_ATTACK: "умер от широкого удара сущности"
+  PROJECTILE: "умер от попадания снаряда"
+  SUFFOCATION: "задохнулся в блоках"
+  FALL: "умер от падения"
+  FIRE: "сгорел в огне"
+  FIRE_TICK: "сгорел от огня"
+  MELTING: "растаял"
+  LAVA: "сгорел в лаве"
+  DROWNING: "утонул"
+  BLOCK_EXPLOSION: "погиб от взрыва блока"
+  ENTITY_EXPLOSION: "погиб от взрыва сущности"
+  VOID: "упал в пустоту"
+  LIGHTNING: "погиб от удара молнии"
+  SUICIDE: "покончил с собой"
+  STARVATION: "умер от голода"
+  POISON: "умер от яда"
+  MAGIC: "умер от магии"
+  WITHER: "умер от иссушения"
+  FALLING_BLOCK: "раздавлен падающим блоком"
+  THORNS: "умер от шипов"
+  DRAGON_BREATH: "умер от дыхания дракона"
+  CUSTOM: "умер по неизвестной причине"
+  FLY_INTO_WALL: "врезался в стену при полёте"
+  HOT_FLOOR: "обжёгся об горячий блок"
+  CRAMMING: "задохнулся в тесноте"
+  DRYOUT: "умер от обезвоживания"
+  KILL: "был убит"
+  FREEZE: "замёрз"
+  unknown: "умер по неизвестной причине"
+
+m:
+  grave-name: "&4&l❌ &r&f%s"
+  set: "&f&lУстановлено"
+  get: "&f&lВыдано"
+  win: "&2&lWin"
+  subwin: "&fnow you can get out of here"
+
+  notGraves: "&f&lУ вас нету могил"
+  graveCoordinates: "&f&l%s) &r%s,%s,%s"
+
+  deathTeleport: "&7Вы попали в загробный мир"
+  lastLifes: "&fОсталось жизней: &7&l%s"
+  bossSpawn: "&f&lУ вас появился шанс выйти отсюда, бегите на спавн!"
+
+items:
+  grave-key:
+    name: "&7Могильный ключ"
+  mortal-totem:
+    name: "&c&lУлучшенный тотем"
+  lightstone:
+    name: "&f&lСветлый камень"

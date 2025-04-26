@@ -1,0 +1,28 @@
+send-enable-plugin-message: true
+enable-plugin-message: "&7&lDeathManager &r&fhas launched! Thanks for your purchase"
+lang: "en.yml"
+
+#If this is enabled, the player will be in spirit mode after death.
+spirit_mode: false
+spirit_mode_time: 600 #Second
+#If enabled, then after a certain number of lives have expired, the player will enter another world.
+limited_life: true
+amount_limited_life: 3
+default-world: "world"
+#If enabled, a grave will appear after the player's death.
+grave: false
+
+events-settings:
+  playerDeath:
+    send-death-message: true
+    sound:
+      enabled: true
+      name: "ENTITY_PLAYER_DEATH"
+      volume: 1.0
+      pitch: 1.0
+    animation:
+      particle:
+        enabled: true
+        name: "DAMAGE_INDICATOR"
+        size: 2
+        amount: 10

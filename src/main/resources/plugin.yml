@@ -1,0 +1,9 @@
+name: DeathManager
+version: '0.0.7'
+main: xi.xrami1one.deathManager.DeathPlugin
+api-version: '1.14'
+
+commands:
+  dm:
+    description: "..."
+    permission: dm.deathcommand
